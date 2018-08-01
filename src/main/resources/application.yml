@@ -1,0 +1,13 @@
+info:
+  description: "Service for ConsumerTwo"
+
+spring:
+  application:
+    name: topic-exchange-consumertwo
+
+security:
+  basic:
+    enabled: false
+
+server:
+  port: 9292
